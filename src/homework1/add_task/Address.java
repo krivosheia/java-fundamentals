@@ -54,12 +54,13 @@ public class Address {
 
     @Override
     public String toString() {
-        return "Index: " + getIndex() +
-                "\nCountry: " + getCountry() +
-                "\nCity: " + getCity() +
-                "\nStreet: " + getStreet() +
-                "\nHouse: " + getHouse() +
-                "\nApartment: " + getApartment();
+        return "Address{" +
+                "index=" + index +
+                ", country='" + country + '\'' +
+                ", city='" + city + '\'' +
+                ", street='" + street + '\'' +
+                ", house='" + house + '\'' +
+                ", apartment='" + apartment + '\'' +
+                '}';
     }
-
 }
